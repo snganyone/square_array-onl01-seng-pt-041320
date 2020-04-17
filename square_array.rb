@@ -1,6 +1,6 @@
 def square_array(array)
   nums = []
-  array.each do |square|
-    return Math.sqrt(square)
+  array.each do {|square| nums << Math.sqrt(square)}
+    return nums
   end
 end
