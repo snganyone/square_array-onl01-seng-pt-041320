@@ -3,4 +3,5 @@ def square_array(array)
   while count < array.size
     return Math.sqrt(array)
     count += 1
+  end
 end
