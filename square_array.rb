@@ -1,5 +1,6 @@
 def square_array(array)
-  array.each do |square|
-    return Math.sqrt(square)
-  end
+  count = 0
+  while count < array.size
+    Math.sqrt(array)
+    count += 1
 end
